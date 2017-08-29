@@ -1,0 +1,14 @@
+body {
+  font-family: arial;
+}
+.photo-column {
+  float: left;
+  clear: both;
+}
+.info-column {
+  float: left;
+  margin-left: 10px;
+}
+span {
+  font-size: .8em;
+}

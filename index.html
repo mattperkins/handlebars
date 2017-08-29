@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title></title><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="css/style.css"></head>
+<body>
+
+
+<div id="pets-container">
+  
+</div>
+
+
+
+<script id="petsTemplate" type="text/x-handlebars-template">
+  
+  {{#each pets}}
+      <div class="pet">
+        
+        <div class="photo-column">
+          <img src="{{photo}}" alt="">
+        </div>
+
+        <div class="info-column">
+          <h2>{{name}} <span class="species">({{type}})</span></h2>
+        
+        <p>Message: {{message}}</p>
+
+          {{#if favFood}}
+          <ul>
+            {{#each favFood}}
+              <li>{{{this}}}</li>
+            {{/each}}
+          </ul>
+          {{/if}} 
+            
+        </div><!-- /info-column -->
+
+      </div><!-- /pets -->
+  {{/each}}
+
+</script>
+
+
+<script src="js/handlebars.js"></script>
+<script src="js/app.js"></script>
+</body></html>

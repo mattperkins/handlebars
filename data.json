@@ -1,0 +1,35 @@
+[
+  {
+ 
+  "pets" : [
+    
+    {
+
+    "name" : "Daisy",
+    "type" : "cat",
+    "favFood" : ["tuna", "chicken", "<strong>Mice</strong>"],
+    "photo" : "http://placehold.it/75"
+    
+    },
+
+    {
+
+    "name" : "Rose",
+    "type" : "dog",
+    "photo" : "http://placehold.it/75"
+    
+    },
+
+    {
+
+    "name" : "Ruby",
+    "type" : "cat",
+    "favFood" : ["chicken", "fish", "<strong>crunchies</strong>"],
+    "photo" : "http://placehold.it/75"
+    
+    }
+
+  ]
+
+  }
+]
